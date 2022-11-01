@@ -1,102 +1,61 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* External CSS */
+h3{
+  font-size: 25px;
+} 
+p{
+  font-size: 18px;
+  margin-top: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+  margin: 10px;
+  align-content: center;
+  height: 300px;
+  float: left;
+  width: 45%;
+  border-radius: 25px;
+}
+.navbar-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #008080;
+  color: white;
+  font-size: 24px;
+}
+.python{
+  background-color: rgb(199, 219, 16);
+  border: aqua 4px solid;
+  /* width: 500px; */
+  padding: 5px;
+}
+.cpp{
+  background-color: rgb(46, 224, 10);
+  border: aqua 4px solid;
 
-.everything{
-    box-sizing: border-box;
-
-
+  /* width: 500px; */
+  padding: 5px;
 }
-.bodyevery{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background-color: #f7f8fc;
-    font-family: "Roboto", sans-serif;
-    color: #10182f;
-
+.java{
+  background-color:deepskyblue;
+  border: aqua 4px solid;
+  /* width: 500px; */
+  padding: 5px;
 }
-
-.container {
-  display: flex;
-  width: 2040px;
-  justify-content: center;
-  flex-wrap: wrap;
-
+.javascript{
+  background-color:sandybrown;
+  border: aqua 4px solid;
+  /* width: 500px; */
+  padding: 5px;
 }
-.grid {
-  margin: 20px;
-  background-color: #fff;
-  border-radius: 30px;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  width: 500px;
+.Ruby{
+  background-color:grey;
+  border: aqua 4px solid;
+  /* width: 500px; */
+  padding: 5px;
 }
-.grid-header img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
-}
-
-.grid-header img:hover {
-  opacity: 0.3;
-
-}
-
-.grid-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
-  min-height: 150px;
-}
-
-.tag {
-  background: #cccccc;
-  border-radius: 50px;
-  font-size: 12px;
-  margin: 0;
-  color: #fff;
-  padding: 2px 10px;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-
-.tag-teal {
-  background-color: #47bcd4;
-}
-.tag-purple {
-  background-color: #5e76bf;
-}
-.tag-pink {
-  background-color: #cd5b9f;
-}
-.tag-green {
-    background-color: #cd5b9f;
-  }
-.tag-gray {
-    background-color: gray;
-}
-
-
-.grid-body p {
-  font-size: 13px;
-  margin: 0 0 40px;
-}
-.avatar {
-  display: flex;
-  margin-top: auto;
-}
-
-.avatar img {
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-}
-.avatar-info h5 {
-  margin: 0;
-}
-.avatar-info small {
-  color: #545d7a;
+.C_Sharp{
+  background-color:mediumpurple;
+  border: aqua 4px solid;
+  /* width: 500px; */
+  padding: 5px;
 }

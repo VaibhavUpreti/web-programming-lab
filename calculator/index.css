@@ -1,0 +1,80 @@
+html{
+    font-family: 'Roboto';
+
+}
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-style: italic;
+
+}
+button{
+    padding: 10px;
+    margin: 1px;
+    border: 2px solid black;
+    border-radius: 34%;
+    margin-bottom: auto;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    font-family: 'Roboto';
+    font-weight:900;
+    font-size:larger;
+}
+.button{
+    text-align: center;
+}
+.container {
+    text-align: center;
+    /* background: red; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.row{
+    margin: 10px 0;
+    text-align: center;
+}
+.row input{
+    margin: 0;
+    padding: 19px;
+    margin-bottom: 20px;
+    width: 380px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 70px;
+}
+.func{
+    background-color: #aaa;
+    color: black;
+    font-family: 'Roboto';
+    font-weight:900;
+    font-size: 40px;
+    //font-size:larger;
+}
+.func2{
+    background-color: #505050;
+    color: white;
+    font-family: 'Roboto';
+    font-weight:900;
+    font-size: 40px;
+}
+.func3{
+    background-color: #FF9500;
+    color: white;
+    font-family: 'Roboto';
+    font-weight:500;
+    font-size: 40px;
+}
