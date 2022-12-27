@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Lab-10</title>
+    </head>
+    <body>
+	<h1>Unit Convertor JavaScript</h1>
+	<p>
+	  <label>Kilometers</label>
+	  <input id="inputKilometers" type="number" placeholder="Kilometers" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+	</p>
+	<p>Feet: <span id="outputFeet"></span></p>
+	<p>Meters: <span id="outputMeters"></span></p>
+	<p>Inches: <span id="outputInches"></span></p>
+	<p>cm: <span id="outputcm"></span></p>
+	<p>Yards: <span id="outputYards"></span></p>
+	<p>Miles: <span id="outputMiles"></span></p>
+
+	<br>
+	<br>
+	  <label>Kilograms</label>
+	  <input id="inputGrams" type="number" placeholder="Grams" oninput="WeightConverter(this.value)" onchange="WeightConverter(this.value)">
+	</p>
+	<p>grams: <span id="outputKg"></span></p>
+
+
+    <script>
+		function LengthConverter(valNum) {
+			document.getElementById("outputFeet").innerHTML=valNum*3280.8;
+  	 	    document.getElementById("outputMeters").innerHTML=valNum*1000;
+			document.getElementById("outputInches").innerHTML=valNum*39370;
+			document.getElementById("outputcm").innerHTML=valNum*100000;
+			document.getElementById("outputYards").innerHTML=valNum*1093.6;
+			document.getElementById("outputMiles").innerHTML=valNum*0.62137;
+		}
+	function WeightConverter(valNum) {
+			document.getElementById("outputKg").innerHTML=valNum*1000;
+		}
+
+	</script>
+    </body>
+</html>
+
+
+
+
+

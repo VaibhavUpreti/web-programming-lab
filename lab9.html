@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Lab-9</title>
+    </head>
+    <body>
+      
+    <h1>Click to reload</h1>
+    <script>
+		 // input from the user
+		const min = parseInt(prompt("Enter a min value: "));
+		const max = parseInt(prompt("Enter a max value: "));
+
+		// generating a random number
+		const a = Math.floor(Math.random() * (max - min + 1)) + min;
+
+		// display a random number
+		alert(`Random value between ${min} and ${max} is ${a}`);
+
+		console.log(`Product of numbers  ${min} and ${max} is ${min*max}`);
+		console.log(`Division of numbers ${min} and ${max} is ${max/min}`);
+		console.log(`Random value between ${min} and ${max} is ${a}`);
+		 // Reload on click
+		document.querySelector("h1").addEventListener('click', ()=> window.location.reload());
+    </script>
+    </body>
+</html>
